@@ -1,0 +1,21 @@
+{
+  "name": "dontbemadbro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "dprint"
+  },
+  "devDependencies": {
+    "dprint": "^0.9.1",
+    "dprint-plugin-jsonc": "^0.4.0",
+    "dprint-plugin-typescript": "^0.15.4",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.0-dev.20200404"
+  },
+  "dependencies": {
+    "three": "^0.115.0"
+  }
+}
